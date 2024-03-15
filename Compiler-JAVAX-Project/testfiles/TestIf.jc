@@ -1,0 +1,40 @@
+integer x = 11;
+
+
+if (x == 10) {
+
+    print("Inside If trueStatement: ");
+
+    x = x + 1;
+    print("x = ");
+    println(x);
+
+}else{
+
+    print("Inside If falseStatement: ");
+
+    x = x + 1;
+    print("x = ");
+    println(x);
+
+};
+
+
+
+if (x == 12) {
+
+
+    print("Inside If trueStatement: ");
+
+    print("x = ");
+    println(x);
+
+}else{
+
+    print("Inside If falseStatement: ");
+
+    print("x = ");
+    println(x);
+
+};
+

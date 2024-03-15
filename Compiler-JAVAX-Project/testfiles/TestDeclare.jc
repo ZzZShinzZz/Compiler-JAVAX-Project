@@ -1,0 +1,16 @@
+integer x = 1;
+double y = 2.0;
+
+x = x + 1;
+y = y + 1.0;
+
+println("integer x = ");
+println(x);
+
+
+println("double y = ");
+println(y);
+
+
+
+

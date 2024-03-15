@@ -1,0 +1,9 @@
+string testvar = "test String";
+
+println("\ncall for loop");
+
+for (integer i = 0 ; i <10 ; i++) {
+
+    println(testvar);
+
+};

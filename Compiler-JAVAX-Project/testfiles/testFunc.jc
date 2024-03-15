@@ -1,0 +1,21 @@
+public integer testReturnFunction(integer i){
+    integer y;
+    y = 10;
+    testReturnFunction = i;
+};
+public void testVoidFunction(integer i){
+    integer y;
+    y = 10;
+    print("value from void function ");
+    println(i);
+};
+
+
+print("returning value from return function: ");
+
+
+println(testReturnFunction(2));
+testVoidFunction(3);
+
+
+

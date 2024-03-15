@@ -1,0 +1,29 @@
+integer x = 11;
+
+
+switch (x) {
+    case 10:
+        x = 100;
+    case 20:
+        x = 200;
+    default :
+        x = 0;
+
+};
+print("After switch statement with default: x = ");
+println(x);
+
+
+
+switch (x) {
+    case 0:
+        x = 100;
+    case 1:
+        x = 200;
+
+};
+
+print("After switch statement without default: x = ");
+println(x);
+
+

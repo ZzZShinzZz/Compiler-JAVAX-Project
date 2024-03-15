@@ -1,0 +1,63 @@
+integer x = 11;
+integer k = 0;
+integer y = 2;
+double dd = 2.5;
+integer nonInitialized;
+nonInitialized = 3;
+
+
+print("dd = ");
+println(dd);
+print("k = ");
+println(k);
+
+if (x == 10) {
+
+    integer l = 3;
+    print("Inside If trueStatement: ");
+    println(l);
+
+    x = x + 1;
+    print("x = ");
+    println(x);
+
+}else{
+    integer  c = 5;
+    print("Inside If falseStatement: ");
+    println(c);
+
+    x = x + 1;
+    print("x = ");
+    println(x);
+};
+
+
+switch (x) {
+    case 10:
+        x = 100;
+    case 20:
+        x = 200;
+    default :
+        x = 0;
+
+};
+
+print("x = ");
+
+print("After switch statement: x = ");
+println(x);
+
+string testvar = "test String";
+
+println("\ncall for loop");
+for (integer i = 0 ; i <10 ; i++) {
+
+    println(testvar);
+
+};
+
+println("\ncall while loop");
+while (k < 5) {
+    k = k + 1;
+    println(k);
+}

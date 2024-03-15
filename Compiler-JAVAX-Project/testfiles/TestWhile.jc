@@ -1,0 +1,19 @@
+integer k = 0;
+integer j;
+
+println("\ncall while loop");
+
+while (k < 5) {
+    j=0;
+    k = k + 1;
+    print("k = ");
+    println(k);
+
+    while( j < 5){
+        j = j + 1;
+        print("j = ");
+        println(j);
+    }
+
+
+}
